@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600;900&display=swap');
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f4e8;
+    font-family: 'Tektur';
+    font-display: swap;
+    user-select: none;
+}
+
+.container{
+    align-items: center;
+    padding: 5px 20px 20px 20px;
+    text-align: center;
+    color: #ADD8E6;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    user-select: none;
+}
+
+
+
+.hidden{
+    width: 0;
+    border-left: 3px solid black;
+}
+
+.chessboard{
+    display: grid;
+    grid-template-columns: repeat(9,50px);
+    grid-template-rows: repeat(8,50px);
+    border-left: 3px solid black;
+    transform: translate(25px);
+}
+
+.numbers{
+    display: grid;
+    grid-template-rows: repeat(8,50px);
+    transform: translate(16px, 3px);
+    font-size: 90%;
+}
+
+.letters{
+    display: grid;
+    grid-template-columns: repeat(8,50px);
+    font-size: 120%;
+    justify-content: center;
+    transform: translate(10px, -3px);
+}
+
+.container2{
+    display: flex;
+    background-color: #f7f4e8;
+    justify-content: center;
+    font-size: 128%;
+}
+
+.chessboard > div{
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    text-shadow: none;
+}
+
+.chessboard > div:nth-child(even) {
+    background-color: black;
+    -webkit-text-stroke: 0.4px white;
+}
+
+.chessboard > div:nth-child(odd) {
+    background-color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.chessboard > div:nth-child(even):hover {
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+}
+
+.chessboard > div:nth-child(odd):hover {
+    font-size: 40px;
+    -webkit-text-stroke: 1px white;
+}
+
+.extra{
+    border-top: 3px solid black;
+}
+
+.lextra{
+    border-bottom: 3px solid black;
+}
+
+.result{
+    background-color: rgb(122, 122, 195);
+}

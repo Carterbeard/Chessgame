@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600;900&display=swap');
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+body{
+align-items: center;
+background: #f7f4e8;
+font-family: 'Tektur';
+font-display: swap;
+}
+
+.container{
+    align-items: center;
+    background-color: #f7f4e8;
+    padding: 5px 20px 20px 20px;
+    text-align: center;
+    color: #ADD8E6;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+}
+
+.play_button{
+    padding: 20px;
+    font-family: inherit;
+    background: #f4dfc9;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.01);
+    box-shadow: 5px 10px 10px rgba(35,35,35,0.19);
+    font-size: 35px;
+    width: 450px;
+    
+}
+
+.AI{    
+    padding-bottom: 30px;
+}
+
+.play_button:hover{
+    color:#ADD8E6;
+    -webkit-text-stroke: 0.5px black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+a:hover{
+    -webkit-text-stroke: 0.5px black;
+}
+

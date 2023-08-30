@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Playing Against a friend</title>
+    <script src="https://kit.fontawesome.com/45bfdc420b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Playing Against a Friend</h1>
+    <div class="container2">   
+        <div class="numbers">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            
+        </div>
+        <div class="chessboard">
+            <div class="extra a1" id="a1">
+                <i class="fa-regular fa-chess-rook piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="extra b1" id="b1">
+                <i class="fa-regular fa-chess-knight piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="extra c1" id="c1">
+                <i class="fa-regular fa-chess-bishop piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="extra d1" id="d1">
+                <i class="fa-regular fa-chess-queen piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="extra e1" id="e1">
+                <i class="fa-regular fa-chess-king piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="extra f1" id="f1">
+                <i class="fa-regular fa-chess-bishop piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="extra g1" id="g1">
+                <i class="fa-regular fa-chess-knight piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="extra h1" id="h1">
+                <i class="fa-regular fa-chess-rook piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="hidden"></div>
+            <div class="a2" id="a2">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="b2" id="b2">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="c2" id="c2">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="d2" id="d2">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="e2" id="e2">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="f2" id="f2">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="g2" id="g2">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="h2" id="h2">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #751bbe;"></i>
+            </div>
+            <div class="hidden"></div>
+            <div class="a3" id="a3"></div>
+            <div class="b3" id="b3"></div>
+            <div class="c3" id="c3"></div>
+            <div class="d3" id="d3"></div>
+            <div class="e3" id="e3"></div>
+            <div class="f3" id="f3"></div>
+            <div class="g3" id="g3"></div>
+            <div class="h3" id="h3"></div>
+            <div class="hidden"></div>
+            <div class="a4" id="a4"></div>
+            <div class="b4" id="b4"></div>
+            <div class="c4" id="c4"></div>
+            <div class="d4" id="d4"></div>
+            <div class="e4" id="e4"></div>
+            <div class="f4" id="f4"></div>
+            <div class="g4" id="g4"></div>
+            <div class="h4" id="h4"></div>
+            <div class="hidden"></div>
+            <div class="a5" id="a5"></div>
+            <div class="b5" id="b5"></div>
+            <div class="c5" id="c5"></div>
+            <div class="d5" id="d5"></div>
+            <div class="e5" id="e5"></div>
+            <div class="f5" id="f5"></div>
+            <div class="g5" id="g5"></div>
+            <div class="h5" id="h5"></div>
+            <div class="hidden"></div>
+            <div class="a6" id="a6"></div>
+            <div class="b6" id="b6"></div>
+            <div class="c6" id="c6"></div>
+            <div class="d6" id="d6"></div>
+            <div class="e6" id="e6"></div>
+            <div class="f6" id="f6"></div>
+            <div class="g6" id="g6"></div>
+            <div class="h6" id="h6"></div>
+            <div class="hidden"></div>
+            <div class="a7" id="a7">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #31810c;"></i>
+            </div>
+            <div class="b7" id="b7">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #31810c;"></i>
+            </div>
+            <div class="c7" id="c7">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #31810c;"></i>
+            </div>
+            <div class="d7" id="d7">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #31810c;"></i>
+            </div>
+            <div class="e7" id="e7">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #31810c;"></i>
+            </div>
+            <div class="f7" id="f7">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #31810c;"></i>
+            </div>
+            <div class="g7" id="g7">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #31810c;"></i>
+            </div>
+            <div class="h7" id="h7">
+                <i class="fa-regular fa-chess-pawn piece" style="color: #31810c;"></i>
+            </div>
+            <div class="hidden"></div>
+            <div class="lextra a8" id="a8">
+                <i class="fa-regular fa-chess-rook piece" style="color: #31810c;"></i>
+            </div>
+            <div class="lextra b8" id="b8">
+                <i class="fa-regular fa-chess-knight piece" style="color: #31810c;"></i>
+            </div>
+            <div class="lextra c8" id="c8">
+                <i class="fa-regular fa-chess-bishop piece" style="color: #31810c;"></i>
+            </div>
+            <div class="lextra d8" id="d8">
+                <i class="fa-regular fa-chess-queen piece" style="color: #31810c;"></i>
+            </div>
+            <div class="lextra e8" id="e8">
+                <i class="fa-regular fa-chess-king piece" style="color: #31810c;"></i>
+            </div>
+            <div class="lextra f8" id="f8">
+                <i class="fa-regular fa-chess-bishop piece" style="color: #31810c;"></i>
+            </div>
+            <div class="lextra g8" id="g8">
+                <i class="fa-regular fa-chess-knight piece" style="color: #31810c;"></i>
+            </div>
+            <div class="lextra h8" id="h8">
+                <i class="fa-regular fa-chess-rook piece" style="color: #31810c;"></i>
+            </div>
+            <div class="hidden"></div>
+        </div>
+    </div>
+    <div class="letters">
+        <div>a</div>
+        <div>b</div>
+        <div>c</div>
+        <div>d</div>
+        <div>e</div>
+        <div>f</div>
+        <div>g</div>
+        <div>h</div>
+    </div>
+    </div>
+    <div class="result">
+        result
+    </div>
+</body>
+<script src="friendscript.js"></script>
+</html>
